@@ -1,0 +1,51 @@
+/*Estilização do Corpo da Página*/
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+	font-family: 'Tahoma', "Arial";
+}
+/*Estilização da sessão HEADER da página*/
+header{
+	background: #2c2b2a;
+	padding: 20px 0;
+}
+/*Estilização da sessão NAV (navegação) da página*/
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li { 
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul {
+	list-style: none;
+}
+/*Estilização do Logotipo*/
+.logo_caixa{
+	width: 940px;
+	position: relative;
+	margin: auto;
+}
+.logo{
+	width: 50%;
+}
+/*Estilização do Banner*/
+.banner{
+	width: 100%;
+}
